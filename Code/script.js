@@ -1,4 +1,4 @@
-// Game board as an array inside of a gameBoard object
+// Game board object
 const gameBoard = {
   board: [
     ["", "", ""],
@@ -22,4 +22,21 @@ const gameBoard = {
   },
 };
 
-gameBoard.displayBoard();
+// Testing to see if it works
+// gameBoard.updateBoard(1, 2, "X");
+// gameBoard.updateBoard(2, 1, "O");
+// gameBoard.displayBoard();
+
+// Player object
+// (Name, symbol)
+// (makeMove method)
+
+// GameController object
+// (currentPlayer, turnCount properties)
+// (switchPlayer, checkWinner, checkDraw methods)
+
+// Display object
+// (showMessage, showBoard methods)
+
+// Input handler object
+// (getPlayerInput, validateInput methods)
