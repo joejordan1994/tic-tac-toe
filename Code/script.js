@@ -24,10 +24,10 @@ const gameBoard = {
 gameBoard.displayBoard();
 
 // Player object
-// (Name, symbol)
+// (Name, symbol properties)
 // (makeMove method)
 
-// GameController object
+// Game controller object
 // (currentPlayer, turnCount properties)
 // (switchPlayer, checkWinner, checkDraw methods)
 
