@@ -6,13 +6,12 @@ const gameBoard = {
     ["", "", ""],
   ],
 
-  // Get the board to show up
+  // displayBoard method (to print the board in the console)
   displayBoard: function () {
     this.board.forEach((row) => console.log(row.join(" | ")));
   },
 
-  // Update the board (run this after every move)
-  // This should probably go in another object
+  // updateBoard method (to place "X" or "O" on the board)
   updateBoard: function (row, col, symbol) {
     if (this.board[row][col] === "") {
       this.board[row][col] = symbol;
@@ -22,10 +21,7 @@ const gameBoard = {
   },
 };
 
-// Testing to see if it works
-// gameBoard.updateBoard(1, 2, "X");
-// gameBoard.updateBoard(2, 1, "O");
-// gameBoard.displayBoard();
+gameBoard.displayBoard();
 
 // Player object
 // (Name, symbol)
