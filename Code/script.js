@@ -1,5 +1,5 @@
 // Game board object
-const gameBoard = {
+const gameBoardObject = {
   board: [
     ["", "", ""],
     ["", "", ""],
@@ -24,15 +24,19 @@ const gameBoard = {
 gameBoard.displayBoard();
 
 // Player object
+const playerObject = {};
 // (Name, symbol properties)
 // (makeMove method)
 
 // Game controller object
+const gameControllerObject = {};
 // (currentPlayer, turnCount properties)
 // (switchPlayer, checkWinner, checkDraw methods)
 
 // Display object
+const displayObject = {};
 // (showMessage, showBoard methods)
 
 // Input handler object
+const inputHandlerObject = {};
 // (getPlayerInput, validateInput methods)
