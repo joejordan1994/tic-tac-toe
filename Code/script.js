@@ -21,7 +21,7 @@ const gameBoardObject = {
   },
 };
 
-gameBoard.displayBoard();
+gameBoardObject.displayBoard();
 
 // Player object
 const playerObject = {};
