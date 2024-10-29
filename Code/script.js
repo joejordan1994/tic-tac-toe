@@ -4,7 +4,7 @@ const Gameboard = (() => {
   const render = () => {
     let boardHTML = "";
     gameboard.forEach((square, index) => {
-      boardHTML += `<div class="square" id="square-${index}">${square}</div`;
+      boardHTML += `<div class="square" id="square-${index}">${square}</div>`;
     });
     document.querySelector("#gameboard").innerHTML = boardHTML;
   };
@@ -28,8 +28,8 @@ const Game = (() => {
 
   const start = () => {
     players = [
-      createPlayer(document.querySelector("player1").value, "X"),
-      createPlayer(document.querySelector("player2").value, "O"),
+      createPlayer(document.querySelector("#player1").value, "X"),
+      createPlayer(document.querySelector("#player2").value, "O"),
     ];
     currentPlayerIndex = 0;
     gameOver = false;
